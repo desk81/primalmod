@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "primalistmod:item/mote_of_ice"
+  }
+}

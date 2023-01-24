@@ -1,0 +1,53 @@
+{
+  "item.primalistmod.mote_of_water": "Mote of Water",
+  "item.primalistmod.mote_of_fire": "Mote of Fire",
+  "item.primalistmod.mote_of_earth": "Mote of Earth",
+  "item.primalistmod.mote_of_air": "Mote of Air",
+  "item.primalistmod.mote_of_lightning": "Mote of Lightning",
+  "item.primalistmod.mote_of_blood": "Mote of Blood",
+  "item.primalistmod.mote_of_light": "Mote of Light",
+  "item.primalistmod.mote_of_arcane": "Mote of Arcane",
+  "item.primalistmod.mote_of_nature": "Mote of Nature",
+  "item.primalistmod.mote_of_toxins": "Mote of Toxins",
+  "item.primalistmod.mote_of_witchery": "Mote of Witchery",
+  "item.primalistmod.mote_of_chaos": "Mote of Chaos",
+  "item.primalistmod.mote_of_space": "Mote of Space",
+  "item.primalistmod.mote_of_ice": "Mote of Ice",
+  "item.primalistmod.mote_of_time": "Mote of Time",
+  "item.primalistmod.forsaken_mote": "Forsaken Mote",
+  "item.primalistmod.withering_mote": "Withering Mote",
+  "item.primalistmod.psychic_mote": "Psychic Mote",
+  "item.primalistmod.mote_of_spores": "Mote of Spores",
+
+
+  "item.primalistmod.essence_of_the_tide": "Essence of the Tide",
+  "item.primalistmod.essence_of_the_pyromancer": "Essence of the Pyromancer",
+  "item.primalistmod.essence_of_the_void": "Essence of the Void",
+  "item.primalistmod.essence_of_the_caverns": "Essence of the Caverns",
+  "item.primalistmod.essence_of_the_sky": "Essence of the Sky",
+  "item.primalistmod.essence_of_the_infinite_sands": "Essence of the Infinite Sands",
+  "item.primalistmod.essence_of_the_glacier": "Essence of the Glacier",
+  "item.primalistmod.essence_of_the_storm": "Essence of the Storm",
+  "item.primalistmod.essence_of_the_arcane": "Essence of the Arcane",
+  "item.primalistmod.essence_of_souls": "Essence of Souls",
+  "item.primalistmod.essence_of_poison": "Essence of Poison",
+  "item.primalistmod.essence_of_black_magic": "Essence of Black Magic",
+  "item.primalistmod.psychic_essence": "Psychic Essence",
+  "item.primalistmod.blooming_essence": "Blooming Essence",
+  "item.primalistmod.holy_essence": "Holy Essence",
+  "item.primalistmod.celestial_essence": "Celestial Essence",
+  "item.primalistmod.sanguine_essence": "Sanguine Essence",
+  "item.primalistmod.fungal_essence": "Fungal Essence",
+  "item.primalistmod.chaotic_essence": "Chaotic Essence",
+
+
+  "block.primalistmod.elemental_earth": "Elemental Earth",
+  "block.primalistmod.deepslate_elemental_earth": "Deepslate Elemental Earth",
+  "block.primalistmod.solomons_curse": "Solomons Curse",
+
+
+
+  "itemGroup.primal_tab": "Primal Tab",
+
+  "entity.minecraft.villager.primalistmod.timeless_master": "Timeless Master"
+}

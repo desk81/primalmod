@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "primalistmod:mote_of_lightning"
+    }
+  },
+  "result": {
+    "item": "primalistmod:essence_of_the_storm"
+  }
+}

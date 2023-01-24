@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "primalistmod:block/deepslate_elemental_earth"
+  }
+}

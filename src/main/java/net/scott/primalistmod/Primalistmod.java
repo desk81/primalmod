@@ -10,6 +10,10 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.scott.primalistmod.block.ModBlocks;
+import net.scott.primalistmod.item.ModItems;
+import net.scott.primalistmod.painting.ModPaintings;
+import net.scott.primalistmod.villager.ModVillagers;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -25,21 +29,26 @@ public class Primalistmod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
+        ModVillagers.register(modEventBus);
+        ModPaintings.register(modEventBus);
+
+
+
+
 
         modEventBus.addListener(this::commonSetup);
-
-
-
-
 
         MinecraftForge.EVENT_BUS.register(this);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
-        // Some common setup code
-        LOGGER.info("HELLO FROM COMMON SETUP");
-        LOGGER.info("DIRT BLOCK >> {}", ForgeRegistries.BLOCKS.getKey(Blocks.DIRT));
+            event.enqueueWork(() -> {
+                ModVillagers.registerPOIs();
+            });
     }
 
 

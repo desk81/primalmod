@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "primalistmod:psychic_mote"
+    }
+  },
+  "result": {
+    "item": "primalistmod:psychic_essence"
+  }
+}

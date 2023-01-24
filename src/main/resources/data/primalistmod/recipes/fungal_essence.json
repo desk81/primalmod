@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "primalistmod:mote_of_spores"
+    }
+  },
+  "result": {
+    "item": "primalistmod:fungal_essence"
+  }
+}
