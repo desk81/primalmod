@@ -1,0 +1,11 @@
+{
+  "type": "primalistmod:element_infusing",
+  "ingredients": [
+    {
+      "item": "primalistmod:mote_of_arcane"
+    }
+  ],
+  "output": {
+    "item": "primalistmod:essence_of_the_arcane"
+  }
+}

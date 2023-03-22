@@ -1,0 +1,11 @@
+{
+  "type": "primalistmod:element_infusing",
+  "ingredients": [
+    {
+      "item": "primalistmod:forsaken_mote"
+    }
+  ],
+  "output": {
+    "item": "primalistmod:essence_of_the_void"
+  }
+}

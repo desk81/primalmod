@@ -1,0 +1,11 @@
+{
+  "type": "primalistmod:element_infusing",
+  "ingredients": [
+    {
+      "item": "primalistmod:psychic_mote"
+    }
+  ],
+  "output": {
+    "item": "primalistmod:psychic_essence"
+  }
+}

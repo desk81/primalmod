@@ -5,7 +5,9 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DropExperienceBlock;
+import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -13,6 +15,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.scott.primalistmod.Primalistmod;
+import net.scott.primalistmod.fluid.ModFluids;
 import net.scott.primalistmod.item.ModCreativeModeTab;
 import net.scott.primalistmod.item.ModItems;
 
@@ -37,6 +40,11 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(999f).requiresCorrectToolForDrops(),
                     UniformInt.of(3, 7)), ModCreativeModeTab.PRIMAL_TAB);
+
+    public static final RegistryObject<LiquidBlock> LIQUID_HEALING_BLOCK = BLOCKS.register("liquid_healing_block",
+            () -> new LiquidBlock(ModFluids.SOURCE_LIQUID_HEALING, BlockBehaviour.Properties.copy(Blocks.WATER)));
+
+
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {

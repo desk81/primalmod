@@ -1,0 +1,11 @@
+{
+  "type": "primalistmod:element_infusing",
+  "ingredients": [
+    {
+      "item": "primalistmod:mote_of_nature"
+    }
+  ],
+  "output": {
+    "item": "primalistmod:blooming_essence"
+  }
+}

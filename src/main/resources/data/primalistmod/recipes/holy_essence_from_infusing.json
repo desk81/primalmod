@@ -1,0 +1,11 @@
+{
+  "type": "primalistmod:element_infusing",
+  "ingredients": [
+    {
+      "item": "primalistmod:mote_of_light"
+    }
+  ],
+  "output": {
+    "item": "primalistmod:holy_essence"
+  }
+}

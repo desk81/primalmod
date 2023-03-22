@@ -1,16 +1,20 @@
 package net.scott.primalistmod.item;
 
-import ca.weblite.objc.Proxy;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.scott.primalistmod.Primalistmod;
+import net.scott.primalistmod.fluid.ModFluids;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Primalistmod.MOD_ID);
+
+
+    public static final RegistryObject<Item> ENERGY_FLUX = ITEMS.register("energy_flux",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PRIMAL_TAB)));
 
     public static final RegistryObject<Item> MOTE_OF_WATER = ITEMS.register("mote_of_water",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PRIMAL_TAB)));
@@ -91,6 +95,15 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PRIMAL_TAB)));
     public static final RegistryObject<Item> CHAOTIC_ESSENCE = ITEMS.register("chaotic_essence",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PRIMAL_TAB)));
+
+    public static final RegistryObject<Item> STORM_STRIKE = ITEMS.register("storm_strike",
+            () -> new SwordItem(Tiers.NETHERITE, 10, 5f,
+                    new Item.Properties().tab(ModCreativeModeTab.PRIMAL_TAB)));
+
+
+    public static final RegistryObject<Item> LIQUID_HEALING_BUCKET = ITEMS.register("liquid_healing_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_LIQUID_HEALING,
+                    new Item.Properties().tab(ModCreativeModeTab.PRIMAL_TAB).craftRemainder(Items.BUCKET).stacksTo(1)));
 
 
 

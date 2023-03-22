@@ -40,10 +40,17 @@
   "item.primalistmod.fungal_essence": "Fungal Essence",
   "item.primalistmod.chaotic_essence": "Chaotic Essence",
 
+  "item.primalistmod.energy_flux": "Energy Flux",
+
+  "item.primalistmod.storm_strike": "Storm Strike",
+
+  "item.primalistmod.liquid_healing_bucket": "Bucket of lean",
+
 
   "block.primalistmod.elemental_earth": "Elemental Earth",
   "block.primalistmod.deepslate_elemental_earth": "Deepslate Elemental Earth",
   "block.primalistmod.solomons_curse": "Solomons Curse",
+
 
 
 

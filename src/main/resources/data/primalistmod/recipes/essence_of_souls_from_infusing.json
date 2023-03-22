@@ -1,0 +1,11 @@
+{
+  "type": "primalistmod:element_infusing",
+  "ingredients": [
+    {
+      "item": "primalistmod:withering_mote"
+    }
+  ],
+  "output": {
+    "item": "primalistmod:essence_of_souls"
+  }
+}
